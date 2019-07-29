@@ -54,6 +54,7 @@ App\Model::destroy('primaryKey');
 ```
 
 - Kết hợp với query builder để tạo câu truy vấn phù hợp.
+![](./image/querybuilder.png)
 
 ### Liên kết tới các model khác
 ```php
