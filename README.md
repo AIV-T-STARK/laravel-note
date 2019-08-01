@@ -169,7 +169,7 @@ class Country extends Model
 }
 ```
 
-## Service Container
+## [5. Service Container](https://laracasts.com/series/laravel-from-scratch-2018/episodes/21)
 
 ### Dependency Injection
 - Dependency Injection có nghĩa là khi khởi tạo một object của class, chúng ta không cần phải khởi tạo những class liên quan (dependencies class) bên trong class đó, mà chúng sẽ được inject từ bên ngoài. Và thường gặp nhất là dạng Constructor injection , những class sẽ được inject khi khởi tạo object của class.
@@ -286,5 +286,5 @@ Route::get('/cache', function () {
     + Bắt sự kiện trong controller với `event()`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTAwMjA4MzZdfQ==
+eyJoaXN0b3J5IjpbNzcwNjg5ODUxXX0=
 -->
