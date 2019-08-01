@@ -257,7 +257,7 @@ $now === app('now'); // true
 ## [6. Service providers](https://laracasts.com/series/laravel-from-scratch-2018/episodes/22)
 - Service provider nói với Laravel `bind` các thành phần khác nhau vào `Service container` của laravel. Ta có thể sử dụng lệnh `php artisan make: provider ClientsServiceProvider` trên command để tự tạo ra một service provider. Nó sẽ cung cấp cho chúng ta 2 function là: `register()` và `boot()`.
 
-### Facade
+## [7. Facade](https://laravel.com/docs/5.8/facades)
 - Facade giup ta truy cập đến các hàm bên trong các service được khai báo trong `Service Container` bằng cách gọi các hàm static.
 - Nó là những thứ chúng ta hay sử dụng như:
 ```php
@@ -286,5 +286,5 @@ Route::get('/cache', function () {
     + Bắt sự kiện trong controller với `event()`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzMDI2MzcxXX0=
+eyJoaXN0b3J5IjpbLTg0ODA2ODY2MV19
 -->
