@@ -31,7 +31,7 @@
 
 ![](./image/luong-ung-dung.jpg)
 
-## Eloquent - Model
+## [4. Eloquent - Model](https://laracasts.com/series/laravel-from-scratch-2018/episodes/8)
 - Model là một lớp dữ liệu có cấu trúc giống với bảng trong CSDL, dùng để tương tác với dữ liệu trong bảng.
 
 ### Tạo Model 
@@ -285,5 +285,5 @@ Route::get('/cache', function () {
     + Định nghĩa Listener(trong thư mục `Listener`), Queued Event Listeners, Handling Failed Jobs
     + Bắt sự kiện trong controller với `event()`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODE1MTc4OV19
+eyJoaXN0b3J5IjpbLTIwMTIwMTY5ODBdfQ==
 -->
