@@ -27,7 +27,7 @@
 ### file .env 
 - Cài đặt liên kết tới DB cho hệ thống.
 
-## Luồng ứng dụng cơ bản
+## 3. Luồng ứng dụng cơ bản
 
 ![](./image/luong-ung-dung.jpg)
 
@@ -285,5 +285,5 @@ Route::get('/cache', function () {
     + Định nghĩa Listener(trong thư mục `Listener`), Queued Event Listeners, Handling Failed Jobs
     + Bắt sự kiện trong controller với `event()`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0Mzg3MjU4XX0=
+eyJoaXN0b3J5IjpbLTg2ODE1MTc4OV19
 -->
