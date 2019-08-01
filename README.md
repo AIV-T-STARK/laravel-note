@@ -1,6 +1,7 @@
 # Laravel 
 
-## Cài đặt
+
+## [1. Giới thiệu và cài đặt Laravel](https://laravel.com/docs/5.8/installation)
 `composer create-project --prefer-dist laravel/laravel TenProject "5.*"`
 
 
@@ -284,5 +285,5 @@ Route::get('/cache', function () {
     + Định nghĩa Listener(trong thư mục `Listener`), Queued Event Listeners, Handling Failed Jobs
     + Bắt sự kiện trong controller với `event()`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTc5MDUwMF19
+eyJoaXN0b3J5IjpbLTM1NDIwMzI2Ml19
 -->
