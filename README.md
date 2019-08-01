@@ -276,7 +276,7 @@ Route::get('/cache', function () {
 ...
 ```
 
-## Events
+## [8. Events](https://laravel.com/docs/5.8/events)
 - Trong đời thường cũng như trong quá trình hoạt động của một ứng dụng có rất nhiều event xảy ra. Ví dụ như trong ứng dụng web của chúng ta khi người dùng click lên một button là một sự kiện, khi người dùng thêm sản phẩm vào giỏ hàng là một sự kiện..v.v.. Đôi khi chúng ta cần xử lý các sự kiện này, và định nghĩa các tác vụ mà ứng dụng của chúng ta cần phản hồi lại khi một sự kiện xác định xảy ra. Để giúp chúng ta làm được việc này laravel cung cấp cho chúng ta cái gọi là Event.
 - Laravel cung cấp cho chúng ta một cách thuận tiện để bạn có thể `đăng ký event` và `listener` cho event của bạn, bằng cách truy cập vào `app\Providers\EventServiceProvider`
     + Đăng ký event và listener
@@ -286,5 +286,5 @@ Route::get('/cache', function () {
     + Bắt sự kiện trong controller với `event()`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODA2ODY2MV19
+eyJoaXN0b3J5IjpbMTEyMTIyNTMxNSwtODQ4MDY4NjYxXX0=
 -->
