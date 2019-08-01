@@ -3,6 +3,8 @@
 ## Cài đặt
 `composer create-project --prefer-dist laravel/laravel TenProject "5.*"`
 
+
+
 ## Cấu trúc thư mục
 
 ### Thư mục App
@@ -248,3 +250,6 @@ $now = time();
 app()->instance('now', $now);
 $now === app('now'); // true
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTU2ODU0MTQzN119
+-->
