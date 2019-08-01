@@ -6,7 +6,7 @@
 
 
 
-## [2. Cấu trúc thư mục](https://laravel.com/docs/5.8/structure)
+## [2. Cấu trúc thư mục]([https://laracasts.com/series/laravel-from-scratch-2018/episodes/9](https://laracasts.com/series/laravel-from-scratch-2018/episodes/9))
 
 ### Thư mục App
 - Chứa `Controller`, `Model` và các thành phần cốt lõi khác của ứng dụng.
@@ -285,5 +285,5 @@ Route::get('/cache', function () {
     + Định nghĩa Listener(trong thư mục `Listener`), Queued Event Listeners, Handling Failed Jobs
     + Bắt sự kiện trong controller với `event()`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTIwMTY5ODBdfQ==
+eyJoaXN0b3J5IjpbLTEyMzg1NDE0NjhdfQ==
 -->
