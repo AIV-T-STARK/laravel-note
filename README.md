@@ -254,7 +254,7 @@ $now === app('now'); // true
 
 - **Interface binding**: 
 
-### Service providers
+## [6. Service providers](https://laracasts.com/series/laravel-from-scratch-2018/episodes/22)
 - Service provider nói với Laravel `bind` các thành phần khác nhau vào `Service container` của laravel. Ta có thể sử dụng lệnh `php artisan make: provider ClientsServiceProvider` trên command để tự tạo ra một service provider. Nó sẽ cung cấp cho chúng ta 2 function là: `register()` và `boot()`.
 
 ### Facade
@@ -286,5 +286,5 @@ Route::get('/cache', function () {
     + Bắt sự kiện trong controller với `event()`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwNjg5ODUxXX0=
+eyJoaXN0b3J5IjpbMzUzMDI2MzcxXX0=
 -->
