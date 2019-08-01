@@ -6,7 +6,7 @@
 
 
 
-## Cấu trúc thư mục
+## [2. Cấu trúc thư mục](https://laravel.com/docs/5.8/structure)
 
 ### Thư mục App
 - Chứa `Controller`, `Model` và các thành phần cốt lõi khác của ứng dụng.
@@ -285,5 +285,5 @@ Route::get('/cache', function () {
     + Định nghĩa Listener(trong thư mục `Listener`), Queued Event Listeners, Handling Failed Jobs
     + Bắt sự kiện trong controller với `event()`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDIwMzI2Ml19
+eyJoaXN0b3J5IjpbODk0Mzg3MjU4XX0=
 -->
