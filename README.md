@@ -248,3 +248,35 @@ $now = time();
 app()->instance('now', $now);
 $now === app('now'); // true
 ```
+- **Interface binding**: 
+
+### Service providers
+- Service provider nói với Laravel `bind` các thành phần khác nhau vào `Service container` của laravel. Ta có thể sử dụng lệnh `php artisan make: provider ClientsServiceProvider` trên command để tự tạo ra một service provider. Nó sẽ cung cấp cho chúng ta 2 function là: `register()` và `boot()`.
+
+### Facade
+- Facade giup ta truy cập đến các hàm bên trong các service được khai báo trong `Service Container` bằng cách gọi các hàm static.
+- Nó là những thứ chúng ta hay sử dụng như:
+```php
+use Illuminate\Support\Facades\Cache;
+
+Route::get('/cache', function () {
+    return Cache::get('key');
+});
+```
+```
+- Auth, 
+- Route, 
+- DB, 
+- Session,
+- View,
+...
+```
+
+## Events
+- Trong đời thường cũng như trong quá trình hoạt động của một ứng dụng có rất nhiều event xảy ra. Ví dụ như trong ứng dụng web của chúng ta khi người dùng click lên một button là một sự kiện, khi người dùng thêm sản phẩm vào giỏ hàng là một sự kiện..v.v.. Đôi khi chúng ta cần xử lý các sự kiện này, và định nghĩa các tác vụ mà ứng dụng của chúng ta cần phản hồi lại khi một sự kiện xác định xảy ra. Để giúp chúng ta làm được việc này laravel cung cấp cho chúng ta cái gọi là Event.
+- Laravel cung cấp cho chúng ta một cách thuận tiện để bạn có thể `đăng ký event` và `listener` cho event của bạn, bằng cách truy cập vào `app\Providers\EventServiceProvider`
+    + Đăng ký event và listener
+    + Sinh class event và listener:  `php artisan event:generate`
+    + Định nghĩa sự kiện(trong thư mục `Events`)
+    + Định nghĩa Listener(trong thư mục `Listener`), Queued Event Listeners, Handling Failed Jobs
+    + Bắt sự kiện trong controller với `event()`
