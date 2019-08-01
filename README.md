@@ -250,7 +250,7 @@ $now = time();
 app()->instance('now', $now);
 $now === app('now'); // true
 ```
-<<<<<<< HEAD
+
 - **Interface binding**: 
 
 ### Service providers
@@ -283,8 +283,6 @@ Route::get('/cache', function () {
     + Định nghĩa sự kiện(trong thư mục `Events`)
     + Định nghĩa Listener(trong thư mục `Listener`), Queued Event Listeners, Handling Failed Jobs
     + Bắt sự kiện trong controller với `event()`
-=======
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODU0MTQzN119
+eyJoaXN0b3J5IjpbMTQzNTc5MDUwMF19
 -->
->>>>>>> 5ee8a52c2c055da0fda3cd9926faa7400b46a6c8
